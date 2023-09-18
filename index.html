@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1><center>PREDICTION OF HOUSE RENT IN AN AREA</center></h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="linear1">
+        <br>  <center>Enter your average income :<input type="text" name="b1" ></center></br>
+        <br>  <center>Enter house age you want in years:<input type="text" name="b2" ></center></br>
+        <br>  <center>Enter population:<input type="text" name="b3" ></center></br>
+        <br>  <center>Enter number of bedrooms:<input type="text" name="b4" ></center></br>
+    <br><center><input type="submit"> </center></br>
+    {% if flag == 1 %}
+        <br><center>Price:{{val}} rupees </center></br>
+    {% endif %}
+    
+    </form>
+</body>
+</html>
